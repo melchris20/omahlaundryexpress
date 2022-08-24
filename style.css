@@ -168,9 +168,9 @@ h2.section-title-heading{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 /* .footer-content .box{
@@ -236,7 +236,7 @@ h2.section-title-heading{
 #carousel1 .carousel-item .img{
     width: 100%;
     height: 100%;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 /* Pricing */
@@ -302,7 +302,7 @@ h3.mid-section-title-heading{
     -moz-box-shadow: -2px 0px 6px 2px rgba(0,0,0,0.24);
     -o-box-shadow: -2px 0px 6px 2px rgba(0,0,0,0.24);
     margin-right: 30px;
-    width: calc(170%/4);
+    width: calc(120%/2);
     margin-bottom: 10px;
 }
 
@@ -374,8 +374,9 @@ h3.mid-section-title-heading{
 .footer-content .box{
     flex-basis: 50%;
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .box h4{
@@ -385,7 +386,7 @@ h3.mid-section-title-heading{
 }
 
 .box .content{
-    margin: 10px 10px 0 0;
+    margin: 10px 0px 0 0;
 }
 
 .box .contact-info {
@@ -428,7 +429,7 @@ h3.mid-section-title-heading{
 
 .right .content .working-hours {
     font-size: 12px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-bottom {
